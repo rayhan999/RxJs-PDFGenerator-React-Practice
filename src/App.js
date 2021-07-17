@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { from } from 'rxjs';
-import { filter, map } from 'rxjs/operators';
+import { filter } from 'rxjs/operators';
 import jsPDF from 'jspdf';
 import './App.css';
 import fakeData from './fakeData/data.json';
